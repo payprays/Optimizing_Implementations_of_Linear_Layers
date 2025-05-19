@@ -2345,7 +2345,45 @@ vector<ROW> get_matrix()
 	};
 	return m;
 }
-
+#elif CHOICE == 59
+vector<ROW> get_matrix()
+{
+	vector<ROW> m{
+			0x78579153,
+			0x9c999cf3,
+			0x6e9691a3,
+			0x4cbb5edb,
+			0x38b1078f,
+			0x63fce4cc,
+			0x02e85ae8,
+			0x32d525af,
+			0x8aadcdbd,
+			0x67b0ff00,
+			0x568c0e30,
+			0x4fb8cd60,
+			0xf0881170,
+			0xaaec9d05,
+			0xae6cdb20,
+			0x2ab4575a,
+			0x026d0d93,
+			0x5b091c9a,
+			0x0f250a3d,
+			0x648e0e76,
+			0xde409e00,
+			0x2e970ea5,
+			0x0db74b7b,
+			0xa4ab57bb,
+			0xf56027e0,
+			0xbaf5550d,
+			0x77c8108e,
+			0x5b8db0a5,
+			0x98b60be5,
+			0xe8a70a9b,
+			0xa5a94a37,
+			0xd4841291
+	};
+	return m;
+}
 #else
 vector<ROW> get_matrix()
 {   //skinny64 sa CHOICE == 57
